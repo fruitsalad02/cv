@@ -27,7 +27,7 @@ function App() {
         {/* <!-- Core theme JS--> */}
         <script src="js/scripts.js"></script>
       </body>
-{/* h */}
+
     </div>
   );
 }
