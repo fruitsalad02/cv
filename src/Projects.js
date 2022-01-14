@@ -72,6 +72,7 @@ const Projects = () => {
 
                 </div>
             </section>
+            <hr class="m-0" />
         </div>
      );
 }
