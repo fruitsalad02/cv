@@ -5,7 +5,7 @@ import Experience from './Experience';
 import Education from './Education';
 import Skills from './Skills';
 import Interests from './Interests';
-import Awards from './Awards';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
           <About />
           <Experience />
           <Education />
+          <Projects />
           <Skills />
-          <Interests />
-          <Awards />
+          {/* <Interests /> */}
         </div>
 
         {/* <!-- Bootstrap core JS--> */}
