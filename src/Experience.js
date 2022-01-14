@@ -27,7 +27,7 @@ const Experience = () => {
                                 <li>Develop and maintain website using HTML, CSS, JavaScript, React, Node.js, Express, API</li>
                             </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2017 - May 2021</span></div>
                     </div>
                 </div>
             </section>
