@@ -7,7 +7,9 @@ const Experience = () => {
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Customer Discovery, Summer Internship</h3>
-                            <div class="subheading mb-3">Dadel</div>
+                            <div class="subheading mb-3">
+                                <a href="https://www.mydadel.com/" target="_blank">Dadel</a>
+                            </div>
                             <ul>
                                 <li>Worked closely with the C-level executive team to develop the strategy of researching market needs and defining business solutions</li>
                                 <li>Prepared and conducted customer interviews and documented feedbacks for review by the executive team</li>
@@ -21,7 +23,9 @@ const Experience = () => {
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Program Director, Part-time Web Developer</h3>
-                            <div class="subheading mb-3">WizOwl Educational Services</div>
+                            <div class="subheading mb-3">
+                                <a href="http://wizowl.org/" target="_blank">WizOwl Educational Services</a>
+                            </div>
                             <ul>
                                 <li>Create, coordinate, and lead this non-profit’s community outreach program to offer free tutoring services to Title I school in Tampa Bay</li>
                                 <li>Develop and maintain website using HTML, CSS, JavaScript, React, Node.js, Express, API</li>

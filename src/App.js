@@ -4,7 +4,6 @@ import About from './About';
 import Experience from './Experience';
 import Education from './Education';
 import Skills from './Skills';
-import Interests from './Interests';
 import Projects from './Projects';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Education />
           <Projects />
           <Skills />
-          {/* <Interests /> */}
         </div>
 
         {/* <!-- Bootstrap core JS--> */}

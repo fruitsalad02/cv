@@ -1,8 +1,29 @@
 import { useState } from 'react';
 import { Collapse } from 'react-bootstrap';
+import CourseList from "./CourseList";
 
 const Education = () => {
     var [toggle, setToggle] = useState(false);
+    const courses = [
+      {
+        "id": 1,
+        "title": "Principles of Functional Programming",
+        "description": "[description]",
+        "skills": "SML/NJ, "
+      },
+      {
+        "id": 2,
+        "title": "title 2",
+        "description": "Opening Party! 2",
+        "skills": "placeholder 2"
+      },
+      {
+        "id": 3,
+        "title": "title 3",
+        "description": "Opening Party! 3",
+        "skills": "placeholder 3"
+      }
+    ];
 
     return ( 
         <div>
@@ -19,9 +40,13 @@ const Education = () => {
                             <button class="btn btn-primary" onClick={() => setToggle((toggle) => !toggle)}>
                                 {toggle? "Hide Courses":"Show Courses"}
                             </button>
+
+                            <br />
+                            <br />
+
                             <Collapse in={toggle}>
-                                <div class="card card-body">
-                                    Computer Science 100
+                                <div>
+                                    { courses && <CourseList courses={courses} /> }
                                 </div>
                             </Collapse>
                            
