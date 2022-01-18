@@ -1,4 +1,9 @@
+import { useState } from 'react';
+import { Collapse } from 'react-bootstrap';
+
 const Education = () => {
+    var [toggle, setToggle] = useState(false);
+
     return ( 
         <div>
             <section class="resume-section" id="education">
@@ -11,24 +16,16 @@ const Education = () => {
                             <div>Information Systems, Minor in Computer Science and Human-Computer Interaction</div>
                             <p>GPA: 3.60, Dean's List</p>
 
+                            <button class="btn btn-primary" onClick={() => setToggle((toggle) => !toggle)}>
+                                {toggle? "Hide Courses":"Show Courses"}
+                            </button>
+                            <Collapse in={toggle}>
+                                <div class="card card-body">
+                                    Computer Science 100
+                                </div>
+                            </Collapse>
                            
                         </div>
-
-                        {/* <div>
-                            <p>
-                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Link with href
-                            </a>
-                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                Button with data-target
-                            </button>
-                            </p>
-                            <div class="collapse" id="collapseExample">
-                            <div class="card card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            </div>
-                            </div>
-                        </div> */}
 
                         <div class="flex-shrink-0"><span class="text-primary">August 2020 - May 2024</span></div>
                     </div>
