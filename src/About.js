@@ -18,7 +18,7 @@ const About = () => {
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/brianna-wang-615b90204/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/fruitsalad02" target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="/assets/BriannaWangResume2022.pdf" target="_blank"><i class="far fa-file-pdf"></i></a>
+                        <a class="social-icon" href="https://drive.google.com/file/d/1xL6Wgkn94sgoXw0jJ4qveU62rAuMeGb8/view?usp=sharing" target="_blank"><i class="far fa-file-pdf"></i></a>
                     </div>
                 </div>
             </section>
