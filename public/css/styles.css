@@ -3031,12 +3031,12 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #000;
+  color: #f5cdbf;
   background-color: #bd5d38;
   border-color: #bd5d38;
 }
 .btn-primary:hover {
-  color: #000;
+  color: #5c2d1b;
   background-color: #c77556;
   border-color: #c46d4c;
 }

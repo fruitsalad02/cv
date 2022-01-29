@@ -10,7 +10,7 @@ const CourseList = ({ courses }) => {
                         <b>{ course.description }</b>
                         <br />
                         <br />
-                        <p>Skill: { course.skills }</p>
+                        <p>Skills: { course.skills }</p>
                     </div>
                 </div>
             ))}
