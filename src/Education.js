@@ -45,7 +45,7 @@ const Education = () => {
         "id": 7,
         "title": "Methods for Statistics and Data Science (Spring 2021)",
         "description": "Covers simple and multiple regression, analysis of variance methods and logistic regression. Students use RStudio to produce models, analyze data, and produce written reports. The course also explores some machine learning classifiers.",
-        "skills": "R"
+        "skills": "R, RStudio"
       },
       {
         "id": 8,
