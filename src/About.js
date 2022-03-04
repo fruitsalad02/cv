@@ -8,8 +8,6 @@ const About = () => {
                         <span class="text-primary">Wang</span>
                     </h1>
                     <div class="subheading mb-5">
-                        1635 Denniston St · Pittsburgh, PA 15217 
-                        <br />
                         (813) 817-2419
                         <br />
                         <a href="mailto:briannawang@cmu.edu">briannawang@cmu.edu</a>
