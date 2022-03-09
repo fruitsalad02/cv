@@ -7,7 +7,7 @@ const Skills = () => {
 
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="subheading mb-3">Programming Languages & Tools</div>
+                            <div class="subheading mb-3">Programming Languages</div>
                             <ul>
                                 {/* <li class="list-inline-item"><i class="fab fa-html5"></i></li>
                                 <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
@@ -25,37 +25,39 @@ const Skills = () => {
                                 <li>JAVA</li>
                                 <li>C/C++</li>
                                 <li>R</li>
-                                <li>React</li>
                                 <li>JSX</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>SQL</li>
-                                <li>PL/pgSQL</li>
-                                <li>Git</li>
-                                <li>VS Code</li>
-                                <li>Postgres</li>
-                                <li>Processing IDE</li>
-                                <li>Vertabelo</li>
+                                <li>SML</li>
+                                <li>Ruby on Rails</li>
                             </ul>
                         </div>
 
                         <div class="col-sm-4">
-                            <div class="subheading mb-3">Microsoft Office Suite Certifications</div>
+                            <div class="subheading mb-3">Software</div>
                             <ul>
-                                <li>Excel</li>
-                                <li>Word</li>
-                                <li>PowerPoint</li>
-                                <li>Outlook</li>
-                                <li>Access</li>
+                                <li>jQuery</li>
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>SQL</li>
+                                <li>PL/pgSQL</li>
+                                <li>MongoDB</li>
+                                <li>Adobe InDesign</li>
+                                <li>Adobe Photoshop</li>
+                                <li>Adobe XD</li>
+                                <li>Figma</li>
                             </ul>
                         </div>
                         
                         <div class="col-sm-4">
-                            <div class="subheading mb-3">Experience with</div>
+                            <div class="subheading mb-3">Tooling</div>
                             <ul>
-                                <li>Adobe InDesign</li>
-                                <li>Adobe Photoshop</li>
-                                <li>MS Project</li>
+                                <li>VS Code</li>
+                                <li>Linux</li>
+                                <li>Git/Github</li>
+                                <li>Vim</li>
+                                <li>LaTeX</li>
                             </ul>
                         </div>
                     </div>

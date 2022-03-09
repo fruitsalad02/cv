@@ -1,75 +1,56 @@
 const Projects = () => {
     return ( 
         <div>
-            <section class="resume-section" id="awards">
+            <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
+                    <h2 class="mb-5">Featured Projects</h2>
 
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Database Project - DoorDash</h3>
-                            <div class="subheading mb-3">Database Design and Development</div>
-                            <p>I simulated creating the underlying structure of DoorDash's business model from scratch. Using information on DoorDash's current business model and functions, I came up with value propositions and user stories for the company. With this, I was able to develop a conceptual model that I translated into logical, physical, and relational models. During this process, I made necessary changes to the structure of the models to adhere to Boyce-Codd Normal Form. I used these models to program user-prompted queries, utilizing a combination of PL/pgSQL, SQL, and Python, allowing the user to gather useful information from the created database tables.</p>
+                            <h3 class="mb-0">Database Design Simulating DoorDash’s Business Model</h3>
+                            <div class="subheading mb-3">67-262 Database Design and Development</div>
+                            <ul>
+                                <li>Designed scheme to represent relationships between customers, deliverers, and businesses following best practices in conceptual, logical, physical, and relational models with normalization into Boyce-Codd Normal Form</li>
+                                <li>Developed UI/UX for database queries, utilizing PL/pgSQL, SQL, and Python</li>
+                                <li>Full-stack development for both front-end and back-end involving database building, modeling, and UI/UX design</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Fall 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Machine Learning Classification</h3>
-                            <div class="subheading mb-3">Methods for Statistics and Data Science</div>
-                            <p>Programming in R, I conducted a study to compare four different machine learning classifiers (LDA, QDA, classification trees, and binary logistic regression) by constructing a feature set extracted from the Titanic passenger data set. A final classifier was determined to be the most useful in predicting the survivability of the passengers.</p>
+                            <h3 class="mb-0">Research and Analysis of Multiple Machine Learning Classifiers </h3>
+                            <div class="subheading mb-3">36-202 Methods for Statistics and Data Science</div>
+                            <ul>
+                                <li>Compared four different machine learning classifiers (Linear Discriminant Analysis, Quadratic Discriminant Analysis, Classification Trees, and Binary Logistic Regression) to determine the most useful model for predictions</li>
+                                <li>Utilized techniques and methodologies involving feature set construction, R, and box/bar/pairs plots</li>
+                                <li>Authored a <a href="https://drive.google.com/file/d/1Phv9S8ABpbTKFCUBYcRAba56mQR4K3d7/view?usp=sharing" target="_blank">research paper</a> using LaTeX</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Regression Models</h3>
-                            <div class="subheading mb-3">Methods for Statistics and Data Science</div>
-                            <p>Programming in R, I explored a variety of regression models using a feature set resulting from a bike-sharing system data set. The most useful model in predicting the number of users for the system was determined by considering significant interactions between the variables using factors such as interaction plots, vif comparisons, p-values, residual plots, and qq plots.</p>
+                            <h3 class="mb-0">Full-Stack Website Development</h3>
+                            <div class="subheading mb-3">Personal Project</div>
+                            <ul>
+                                <li>Designed this website from scratch using HTML, CSS, JavaScript, React, Node.js, Express, and APIs</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2021</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Information Systems Term Project Proposal</h3>
-                            <div class="subheading mb-3">Information Systems Milieux</div>
-                            <p>I proposed a solution to counter the disorganization of vaccine distribution in the United States. I gathered research on the prevailing problem, designed and created a poster detailing the problem and solution, and created a video to advertise our solution.</p>
+                            <h3 class="mb-0">Interactive Robotics</h3>
+                            <div class="subheading mb-3">16-223 IDeATe: Creative Kinetic Systems</div>
+                            <ul>
+                                <li>Created an interactive wireframe mask that fits over the user’s head using an NPN phototransistor to detect the user’s movement and translate it to meaningful action</li>
+                                <li>The project involved circuit design, Arduino Uno Rev3 programming, and event driven programming in C/C++</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2020</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Database Project - Yamaha</h3>
-                            <div class="subheading mb-3">Information Systems Milieux</div>
-                            <p>Given Yamaha piano sales data, I created and performed a series of SQL queries on a database using SQL. I also created an entity-relationship diagram and wrote a business memo specifying which dealership and brand of piano would be useful in expanding.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Development Project</h3>
-                            <div class="subheading mb-3">Information Systems Milieux</div>
-                            <p>Following specific guidelines given by a client, I redesigned the website for the Duquesne Incline using HTML, CSS, and JQuery. In addition to the website, I created a design guide, a task breakdown, a timeline for the project, and conducted user testing to improve the website before its final implementation.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Spring 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Robotic, Interactive, and Kinetic Mask</h3>
-                            <div class="subheading mb-3">IDeATe: Creative Kinetic Systems</div>
-                            <p>Using C/C++ and an Arduino Uno Rev3, I created an interactive wireframe mask that fits over the user’s head. This mask used an NPN phototransistor to detect the user’s movement to then translate it to meaningful action. The project involves the physical design of the mask and circuit design along with coding event logic in C/C++.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Fall 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Python-Based Computer Game</h3>
-                            <div class="subheading mb-3">Fundamentals of Programming and Computer Science</div>
-                            <p>I designed and programmed a rhythm-based game where the player and enemies move according to the beat of a chosen song. The game features different types of enemies that have their own AI attack patterns and a randomly generated stage. This project uses Python, PIL/Pillow, and the Librosa package.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Fall 2020</span></div>
-                    </div>
-
+                    
                 </div>
             </section>
             <hr class="m-0" />

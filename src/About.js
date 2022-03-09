@@ -12,11 +12,15 @@ const About = () => {
                         <br />
                         <a href="mailto:briannawang@cmu.edu">briannawang@cmu.edu</a>
                     </div>
-                    <p class="lead mb-5">I am a sophomore studying <b>Information Systems at Carnegie Mellon University</b> with a minor in <b>Computer Science and Human-Computer Interaction</b>. Currently looking for an internship in business or technology.</p>
+                    <p class="lead mb-5">
+                        A second-year student at Carnegie Mellon University, majoring in <b>Information Systems (IS) </b>with minors in <b>Computer Science (CS) </b>and <b>Human-Computer Interaction (HCI)</b>.
+                        Well-versed in computing technologies, such as <b>C/C++, Python, data structures, algorithms, databases, and web development</b>. Previously involved in business and customer interaction as well as product strategizing in the capability of a <b>Product Management Internship</b>. Strong interest in both <b>software engineering and product management</b>. I also show particular interest in HCI where I get to leverage my artistic abilities blended with technical understanding to create something that is both effective and appealing.
+                        Aside from completing rigorous coursework at CMU, I enjoy digital drawing, epee fencing, traveling, and cooking.
+                    </p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/brianna-wang-615b90204/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/fruitsalad02" target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://drive.google.com/file/d/1xL6Wgkn94sgoXw0jJ4qveU62rAuMeGb8/view?usp=sharing" target="_blank"><i class="far fa-file-pdf"></i></a>
+                        {/* <a class="social-icon" href="https://github.com/fruitsalad02" target="_blank"><i class="fab fa-github"></i></a> */}
+                        <a class="social-icon" href="https://docs.google.com/document/d/1kQ-wXj3UWtvSnY0nhoMwMHHahgxpFDftufDd1RjywPw/edit?usp=sharing" target="_blank"><i class="far fa-file-pdf"></i></a>
                     </div>
                 </div>
             </section>

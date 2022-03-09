@@ -4,13 +4,13 @@ const CourseList = ({ courses }) => {
             {courses.map(course => (
                 <div class="card border-secondary mb-3">
                     <div class="card-header">
-                        { course.title }
+                        <b>{ course.title }</b>
                     </div>
                     <div class="card-body" key={course.id} >
-                        <b>{ course.description }</b>
+                        { course.description }
                         <br />
                         <br />
-                        <p>Skills: { course.skills }</p>
+                        <p><b>Skills: { course.skills }</b></p>
                     </div>
                 </div>
             ))}
