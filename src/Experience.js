@@ -14,7 +14,7 @@ const Experience = () => {
                                 I was a part of the Citi Early Identification Program which invests in a diverse and inclusive workforce as well as leadership training. I participated in technical trainings and business workshops. Through this program, I was able to learn more about the banking business, enterprise operations, and technologies involved.
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2021 - Aug 2021</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Feb 2022 - March 2022</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
