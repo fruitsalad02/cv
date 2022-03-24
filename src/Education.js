@@ -113,7 +113,7 @@ const Education = () => {
                            
                         </div>
 
-                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - May 2024</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Aug 2020 - May 2024</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -124,7 +124,7 @@ const Education = () => {
                             <div>President of Mu Alpha Theta</div>
                             <p hidden>GPA: 7.??</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2016 - May 2020</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">Aug 2016 - May 2020</span></div>
                     </div>
                 </div>
             </section>
